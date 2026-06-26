@@ -7,8 +7,8 @@ from email.message import EmailMessage
 # --- CONFIGURATION ---
 categories = ['Plastic', 'Wooden', 'Food', 'Clothes', 'Furniture', 'Groceries']
 filename_master = 'compliance datas collected for my key skills for decent compliance job(AutoRecovered).xlsx'
-sender_email = "samihaanwarsuha@gmail.com"
-app_password = "wyip zmjs bikp xujy" # Your 16-character App Password
+sender_email = "your_email@gmail.com"
+app_password = "YOUR_APP_PASSWORD_HERE" # Your 16-character App Password
 
 def send_email(recipient, pdf_path, zone, category):
     msg = EmailMessage()
